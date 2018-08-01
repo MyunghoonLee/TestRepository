@@ -20,7 +20,7 @@ namespace Calendar
                 Console.Write("\n\t일");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("\t월\t화\t수\t목\t금\t토\n");
-                ///////////////////////////
+                
                 for (int i = 0; i < 7; i++)
                 {
                     if (i == dow)
